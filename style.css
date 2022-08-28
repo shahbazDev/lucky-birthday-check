@@ -1,0 +1,21 @@
+:root{
+    --primary-color:#a78bfa;
+}
+body{
+    background-color: var(--primary-color);
+    text-align: center;
+}
+#date-of-birth{
+    display:block;
+    margin-bottom: 2rem;
+    
+}
+#lucky-number{
+    display: block;
+    margin-bottom: 2rem;
+}
+input{
+    width: 50%;
+    margin: auto;
+    
+}
