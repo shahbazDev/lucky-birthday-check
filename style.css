@@ -1,5 +1,7 @@
+
 :root{
     --primary-color:#a78bfa;
+  
 }
 body{
     background-color: var(--primary-color);
@@ -8,14 +10,85 @@ body{
 #date-of-birth{
     display:block;
     margin-bottom: 2rem;
+    margin-top: 1rem;
     
 }
 #lucky-number{
     display: block;
     margin-bottom: 2rem;
+    margin-top: 0.8rem;
 }
+
+#check-number{
+ border: 2px solid var(--black); 
+ padding: 0.4rem 1rem;
+ border-radius: 0.5rem; 
+font-size: large;
+cursor: pointer;
+}
+
+#output-Box{
+  margin-top: 1rem;
+  font-size: x-large;
+  padding: 0.5rem;
+}
+
+
+
+
+
+
+
+label {
+    font-weight: 500;
+    font-size: 1.3rem;
+  }
+
 input{
     width: 50%;
     margin: auto;
-    
+    border-radius: 5px;
+    padding: 0.3rem;
+    font-size: large;
+    border: transparent;
 }
+
+
+
+
+
+
+
+* {
+    font-family: "Lato", sans-serif;
+  }
+
+.header {
+  text-align: center;
+  margin-top: 80px;
+}    
+
+.container {
+  width: 600px;
+  margin: auto auto;
+}
+
+footer {
+  font-size: large;
+  text-align: center;
+  margin-top: 150px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
