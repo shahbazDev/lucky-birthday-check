@@ -74,10 +74,15 @@ input{
 }
 
 footer {
-  font-size: large;
+  bottom:0;
+  position: absolute;
   text-align: center;
-  margin-top: 150px;
-}
+  left:0;
+  right:0;
+  background-color: var(--primary-color);
+  padding: 1.5rem;
+  font-size: large;
+  }
 
 
 
